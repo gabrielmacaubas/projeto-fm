@@ -28,3 +28,4 @@ def quick_sort(array, start, end):
     p = partition(array, start, end)
     quick_sort(array, start, p-1)
     quick_sort(array, p+1, end)
+    
