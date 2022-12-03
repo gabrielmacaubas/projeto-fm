@@ -1,7 +1,7 @@
 from typing import List
 
 def merge_sort(array:List[float]):
-    
+
     if len(array) > 1:
         mid = len(array) // 2
         left = array[:mid]

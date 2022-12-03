@@ -36,7 +36,7 @@ start_time = time.time()
 
 bubble_sort(dados)
 #imprimir_dados(dados)
-print("tempo bubble: ", time.time() - start_time)
+print("Tempo bubble: ", time.time() - start_time)
 
 
 # quick sort
